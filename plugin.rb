@@ -10,6 +10,8 @@
 
 enabled_site_setting :oauth2_enabled
 
+require 'securerandom'
+
 class ::OmniAuth::Strategies::Oauth2Basic < ::OmniAuth::Strategies::OAuth2
   option :name, "oauth2_basic"
 
@@ -325,8 +327,7 @@ class ::OAuth2BasicAuthenticator < Auth::ManagedAuthenticator
     end
 
     # Generate a random alphanumeric username if not provided
-    if auth["info"]["nickname"].blank?
-      auth["info"]["nickname"] = "Anonymous" + SecureRandom.alphanumeric(8)
+    auth["info"]["nickname"] = SecureRandom.alphanumeric(8)
     end
 
     super(auth, existing_account: existing_account)
