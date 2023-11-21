@@ -7,6 +7,7 @@
 ur:
   login:
     authenticator_error_fetch_user_details: "آپ کی صارف تفصیلات کو حاصل نہیں کیا جا سکا۔ کیا آپ کے پاس ایک فعال اکاؤنٹ ہے؟"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "اپنی مرضی کا OAuth2 فعال ہے"
     oauth2_client_id: "اپنی مرضی کے OAuth2 کیلئے کلائنٹ ائی ڈی"

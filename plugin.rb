@@ -320,7 +320,7 @@ class ::OAuth2BasicAuthenticator < Auth::ManagedAuthenticator
         unless valid_membership
           result = Auth::Result.new
           result.failed = true
-          result.failed_reason = I18n.t("oauth2_basic.no_valid_membership")
+          result.failed_reason = I18n.t("login.no_valid_membership")
           return result
         end
       end

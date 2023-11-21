@@ -7,6 +7,7 @@
 sv:
   login:
     authenticator_error_fetch_user_details: "Det gick inte att hämta dina användaruppgifter. Har du ett aktivt konto?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "Anpassad OAuth2 är aktiverad"
     oauth2_client_id: "Klient-ID för anpassad OAuth2"

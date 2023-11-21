@@ -7,6 +7,7 @@
 ja:
   login:
     authenticator_error_fetch_user_details: "ユーザー情報を取得できませんでした。アクティブなアカウントをお持ちですか？"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "カスタム OAuth2 は有効です"
     oauth2_client_id: "カスタム OAuth2 のクライアントID"

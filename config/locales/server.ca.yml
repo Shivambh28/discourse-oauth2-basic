@@ -7,6 +7,7 @@
 ca:
   login:
     authenticator_error_fetch_user_details: "No s'han pogut recuperar les dades d'usuari. Teniu un compte actiu?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "OAuth2 personalitzat està habilitat"
     oauth2_client_id: "ID de client per a OAuth2 personalitzat"

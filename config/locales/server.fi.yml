@@ -7,6 +7,7 @@
 fi:
   login:
     authenticator_error_fetch_user_details: "Käyttäjätietojasi ei löytynyt. Oletko varma, että tilisi on aktiivinen?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "Mukautettu OAuth2 on käytössä"
     oauth2_client_id: "Mukautetun OAuth2:n asiakastunnus"

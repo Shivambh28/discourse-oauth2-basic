@@ -7,6 +7,7 @@
 uk:
   login:
     authenticator_error_fetch_user_details: "Не вдалося отримати дані користувача. У вас є активний обліковий запис?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_authorize_options: "Під час авторизації запитувати ці параметри"
     oauth2_scope: "Під час авторизації запитувати ці дані"

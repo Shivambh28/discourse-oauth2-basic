@@ -7,6 +7,7 @@
 zh_CN:
   login:
     authenticator_error_fetch_user_details: "无法检索您的用户详细信息。您有活跃帐户吗？"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "自定义 OAuth2 已启用"
     oauth2_client_id: "自定义 OAuth2 的客户端 ID"

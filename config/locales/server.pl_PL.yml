@@ -7,6 +7,7 @@
 pl_PL:
   login:
     authenticator_error_fetch_user_details: "Nie mogliśmy odnaleźć informacji o Twoim użytkowniku. Czy Twoje konto jest aktywne?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "Niestandardowy OAuth2 jest włączony"
     oauth2_client_id: "Client ID dla własnego OAuth2"

@@ -7,6 +7,7 @@
 he:
   login:
     authenticator_error_fetch_user_details: "לא ניתן לקבל את פרטי המשתמש שלך. יש לך חשבון פעיל?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "מופעל OAuth2 בהתאמה אישית"
     oauth2_client_id: "מזהה לקוח ל־OAuth2 בהתאמה אישית"

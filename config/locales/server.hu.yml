@@ -7,6 +7,7 @@
 hu:
   login:
     authenticator_error_fetch_user_details: "Nem sikerült lekérni a felhasználói adatokat. Van aktív fiókja?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "Az egyéni OAuth2 engedélyezett"
     oauth2_client_id: "Kliensazonosító az egyéni OAuth2-höz"

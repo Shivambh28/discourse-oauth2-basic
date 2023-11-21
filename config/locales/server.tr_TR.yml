@@ -7,6 +7,7 @@
 tr_TR:
   login:
     authenticator_error_fetch_user_details: "Kullanıcı ayrıntılarınız görüntülenemedi. Aktif bir hesabınız var mı?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "Özel OAuth2 etkin"
     oauth2_client_id: "Özel OAuth2 için müşteri kimliği"

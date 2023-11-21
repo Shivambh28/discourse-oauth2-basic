@@ -7,6 +7,7 @@
 ar:
   login:
     authenticator_error_fetch_user_details: "تعذَّر استرداد تفاصيل المستخدم الخاصة بك. هل لديك حساب نشط؟"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "تم تفعيل مصادقة OAuth2 المخصَّصة"
     oauth2_client_id: "مُعرِّف العميل لمصادقة OAuth2 المخصَّصة"

@@ -7,6 +7,7 @@
 pt:
   login:
     authenticator_error_fetch_user_details: "Não foi possível recuperar os detalhes do utilizador. Tem uma conta ativa?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "OAuth2 personalizada está ativada"
     oauth2_client_id: "Id. do cliente para OAuth2 personalizada"

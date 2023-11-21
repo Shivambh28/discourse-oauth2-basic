@@ -7,6 +7,7 @@
 nl:
   login:
     authenticator_error_fetch_user_details: "Kon je gebruikersgegevens niet ophalen. Heb je een actief account?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "Aangepaste OAuth2 is ingeschakeld"
     oauth2_client_id: "Client-ID voor aangepaste OAuth2"

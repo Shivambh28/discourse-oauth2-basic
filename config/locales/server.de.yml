@@ -7,6 +7,7 @@
 de:
   login:
     authenticator_error_fetch_user_details: "Deine Benutzerdaten konnten nicht abgerufen werden. Hast du ein aktives Konto?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "Benutzerdefiniertes OAuth2 ist aktiviert"
     oauth2_client_id: "Client-ID für benutzerdefiniertes OAuth2"

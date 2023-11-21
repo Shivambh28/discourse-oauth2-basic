@@ -7,6 +7,7 @@
 ko:
   login:
     authenticator_error_fetch_user_details: "사용자 세부 정보를 검색 할 수 없습니다. 활성 계정이 있습니까?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "맞춤 OAuth2가 사용 설정되었습니다."
     oauth2_client_id: "사용자 정의 OAuth2의 클라이언트 ID"

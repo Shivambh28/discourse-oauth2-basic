@@ -7,6 +7,7 @@
 ru:
   login:
     authenticator_error_fetch_user_details: "Не удалось получить данные пользователя. У вас есть активный аккаунт?"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
   site_settings:
     oauth2_enabled: "Пользовательский OAuth2 включен"
     oauth2_client_id: "Идентификатор клиента для пользовательского OAuth2"
