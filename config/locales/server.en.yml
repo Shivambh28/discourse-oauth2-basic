@@ -1,7 +1,7 @@
 en:
   login:
     authenticator_error_fetch_user_details: "Could not retrieve your user details. Do you have an active account?"
-    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/i/pricing"
+    no_valid_membership: "You must have an active membership on frontendlead. Check out our pricing at https://frontendlead.com/p/pricing"
 
   site_settings:
     oauth2_enabled: "Custom OAuth2 is enabled"
