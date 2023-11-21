@@ -270,6 +270,19 @@ class ::OAuth2BasicAuthenticator < Auth::ManagedAuthenticator
     SiteSetting.oauth2_overrides_email
   end
 
+  def fetch_course_details(token)
+    courses_url = "https://developers.teachable.com/v1/current_user/courses"
+    bearer_token = "Bearer #{token}"
+    connection = Faraday.new { |f| f.adapter FinalDestination::FaradayAdapter }
+    headers = { "Authorization" => bearer_token, "Accept" => "application/json" }
+    response = connection.get(courses_url, nil, headers)
+
+    log("fetch_course_details response: #{response.inspect}")
+
+    return JSON.parse(response.body) if response.status == 200
+    {}
+  end
+
   def after_authenticate(auth, existing_account: nil)
     log(
       "after_authenticate response: \n\ncreds: #{auth["credentials"].to_hash}\nuid: #{auth["uid"]}\ninfo: #{auth["info"].to_hash}\nextra: #{auth["extra"].to_hash}",
@@ -296,6 +309,18 @@ class ::OAuth2BasicAuthenticator < Auth::ManagedAuthenticator
         result.failed = true
         result.failed_reason = I18n.t("login.authenticator_error_fetch_user_details")
         return result
+      end
+
+      # New code to fetch course details
+      if fetched_course_details = fetch_course_details(auth["credentials"]["token"])
+        valid_membership = fetched_course_details["courses"].any? { |course| course["id"] == 1990002 }
+
+        unless valid_membership
+          result = Auth::Result.new
+          result.failed = true
+          result.failed_reason = I18n.t("oauth2_basic.no_valid_membership")
+          return result
+        end
       end
     end
 
