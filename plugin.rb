@@ -328,7 +328,6 @@ class ::OAuth2BasicAuthenticator < Auth::ManagedAuthenticator
 
     # Generate a random alphanumeric username if not provided
     auth["info"]["nickname"] = SecureRandom.alphanumeric(8)
-    end
 
     super(auth, existing_account: existing_account)
   end
